@@ -6,7 +6,7 @@ const {
   DeleteObjectCommand
 } = require("@aws-sdk/client-s3");
 const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
-const ffmpeg = require("fluent-ffmpeg");
+
 const fs = require("fs");
 const path = require("path");
 const { pipeline } = require("stream/promises");
